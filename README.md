@@ -3,6 +3,7 @@ This is a very basic project to answer one liner questions using ChatGPT behind 
 
 ### Prequisites
 - NodeJs v16+
+- ChatGPT Token
 
 ### The Environment
 To run the app, you'll need to place a `.env` file with the following values at the root of the project. 
@@ -22,5 +23,8 @@ Ensure the requests contain a `authorization` header with a value same as the `S
 ### API
  - POST /ask
     - Body: { question: "Is 2020 a leap year?" }
+
+### A sample use case.
+Checkout [Gyani Chrome Extension](https://github.com/koushikchoudhury0/gyani-chrome-extension) that uses this API to answer one liner questions selected as a text on a web page.
 
 
